@@ -2,7 +2,7 @@
 
 """
      Ercan Can
-     Program icin gerekli olan benchmark fonksiyonlarini icerir
+     Included benchmark functions
 """
 __author__ = "ercanc"
 

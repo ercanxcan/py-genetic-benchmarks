@@ -2,7 +2,7 @@
 
 """
      Ercan Can
-     Genetic algoritmasi
+     Genetic algorithn
 """
 import functions
 
