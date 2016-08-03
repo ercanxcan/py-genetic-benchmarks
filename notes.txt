@@ -1,0 +1,23 @@
+Algorithm start with Genetic constructor like below code.
+genetic = Genetic(min='schwefel',maxgenerations=100,size=100, crossover_rate=0.90, mutation_rate=0.01)
+
+If population size set to 5, then result is worst.
+
+If set mutation rate 0.0, then algorithm not found global best.
+
+======================================================================================================================================================
+genetic = Genetic(fitnes_function='schwefel',maxgenerations=1000, pop_size=100, crossover_rate=0.90, mutation_rate=0.0)
+GENERATION :  1001
+BEST       :  Individual_="000000000000000000100000010000" score=37.6829419696
+======================================================================================================================================================
+
+======================================================================================================================================================
+GENERATION :  11   genetic = Genetic(fitnes_function='schwefel',maxgenerations=20, pop_size=100, crossover_rate=0.90, mutation_rate=0.001)
+BEST       :  Individual_="000000000001000000000000000000" score=36.8414709848
+======================================================================================================================================================
+
+======================================================================================================================================================
+genetic = Genetic(fitnes_function='schwefel',maxgenerations=50, pop_size=100, crossover_rate=0.0, mutation_rate=0.001)
+GENERATION :  45  global beste ulaþabiliyor.
+BEST       :  Individual_="False0False0000False0False0False0000False0False0000False00False000" score=36.0
+======================================================================================================================================================
